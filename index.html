@@ -10,174 +10,260 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 		
 </head>
-<body class="bg-light">
+<body class="bg-light scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" tabindex="0">
 
     <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">My Logo</a>
+    <header>
+        <!-- Navbar  -->
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top bg-white px-5">
+            <div class="container d-flex justify-content-between">
+              <a class="navbar-brand" href="#">My Logo</a>
+      
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-img-fluid"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-3 mb-lg-0 d-lg-none">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#portfolio">Porfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <ul class="nav d-sm-none d-lg-flex">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="#portfolio"
+                    >Portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+        
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <!-- Hero section  -->
+        <section class="headline-section bg-white">
+            <div class="desktop-background">
+                <div class="container ">
+                    <div class="w-75 mx-auto intro">
+                        <h1 class="name-txt mb-5">Hey there. I’m CarenSiya.<br>
+                        I’m a software developer</h1>
+                        <p class="">
+                            I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+                            don’t hestiate to contact me.
+                        </p>
+                        <a href=""><h3>Let's Connect</h3></a> 
+                        <ul class="d-flex list-unstyled">
+                            <li class="me-3 "><a href="" class="text-dark"><i class="fa-brands fa-github"></i></a></li>
+                            <li class="me-3"><a href="" class="text-dark"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li class="me-3"><a href="" class="text-dark"><i class="fa-solid fa-hand-peace"></i></a></li>
+                            <li class="me-3"><a href="" class="text-dark" ><i class="fa-brands fa-twitter"></i></a></li>
+                            <li class="me-3"><a href="" class="text-dark"><i class="fa-solid fa-m"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
 
-       
-
-        <ul class="nav d-sm-none d-lg-flex">
-          <li class="nav-item">
-            <a
-              class="nav-link active"
-              aria-current="page"
-              href="#portfolio"
-              >Portfolio</a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about-me">About me</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    </nav>
-    <section class="headline-section">
-		<div class="desktop-background">
-			<div class="container ">
-				<div class="w-75 mx-auto mt-5 intro">
-	    					<h1 class="name-txt mb-5">Hey there. I’m CarenSiya.<br>
-                            I’m a software developer</h1>
-                            <p class="">
-                                I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-                                don’t hestiate to contact me.
-                            </p>
-                            <a href=""><h3>Let's Connect</h3></a> 
-                            <ul class="d-flex list-unstyled">
-                                <li class="me-3 "><a href="" class="text-dark"><i class="fa-brands fa-github"></i></a></li>
-                                <li class="me-3"><a href="" class="text-dark"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li class="me-3"><a href="" class="text-dark"><i class="fa-solid fa-hand-peace"></i></a></li>
-                                <li class="me-3"><a href="" class="text-dark" ><i class="fa-brands fa-twitter"></i></a></li>
-                                <li class="me-3"><a href="" class="text-dark"><i class="fa-solid fa-m"></i></a></li>
-                            </ul>
-						
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-    </section>
-
+    
     <!-- main -->
     <main>
         <!-- project section  -->
-        <section class="container">
-            <div class="row bg-white rounded p-4 my-5">
-                <div class="col-md-6">
-                    <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio.png" alt="Snapshoot Portfolio">
-                </div>
-                <div class="col-md-6">
-                    <h2 class="h1 mb-4">Tonic</h2>
-                    <div class="d-flex">
-                        <h4 class="h6">CANOPY</h4>
-                        <ul class="d-flex">
-                            <li class="me-4 text-muted">Back End Dev</li>
-                            <li class="text-muted">2015</li>
-                        </ul>
+        <section class="container" id="portfolio">
+            <div class="card rounded-3 my-5">
+                <div class="row card-body">
+                    <div class="col-md-6">
+                        <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio.png" alt="Snapshoot Portfolio">
                     </div>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="ps-0 mb-4">
-                        <li class="badge bg-primary">html</li> 
-                        <li class="badge bg-primary">css</li>
-                        <li class="badge bg-primary">javascript</li>
-                    </ul>
-                    <button class="btn btn-lg btn-outline-primary">See Project</button>
+                    <div class="col-md-6">
+                        <h2 class="h1 mb-4">Tonic</h2>
+                        <div class="d-flex">
+                            <h4 class="h6">CANOPY</h4>
+                            <ul class="d-flex">
+                                <li class="me-4 text-muted">Back End Dev</li>
+                                <li class="text-muted">2015</li>
+                            </ul>
+                        </div>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <ul class="ps-0 mb-4">
+                            <li class="badge bg-primary">html</li> 
+                            <li class="badge bg-primary">css</li>
+                            <li class="badge bg-primary">javascript</li>
+                        </ul>
+                        <button type="button"  data-bs-toggle="modal" data-bs-target="#modalId" class="btn btn-lg btn-outline-primary">See Project</button>
+                    </div>
                 </div>
             </div>
 
-            <div class="row bg-white rounded p-4 my-5">
-                <div class="col-md-6">
-                    <div class="item-image">
+            <div class="card rounded-3 my-5">
+                <div class="row card-body flex-row-reverse">
+                    <div class="col-md-6">
                         <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio3.png" alt="Snapshoot Portfolio 3">
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <h2 class="h1 mb-4">Multi-Post
-                        Stories</h2>
-                    <div class="d-flex">
-                        <h4 class="h6">CANOPY</h4>
-                        <ul class="d-flex">
-                            <li class="me-4 text-muted">Back End Dev</li>
-                            <li class="text-muted">2015</li>
+                    <div class="col-md-6">
+                        <h2 class="h1 mb-4">Multi-Post
+                            Stories</h2>
+                        <div class="d-flex">
+                            <h4 class="h6">CANOPY</h4>
+                            <ul class="d-flex">
+                                <li class="me-4 text-muted">Back End Dev</li>
+                                <li class="text-muted">2015</li>
+                            </ul>
+                        </div>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <ul class="ps-0 mb-4">
+                            <li class="badge bg-primary">html</li> 
+                            <li class="badge bg-primary">css</li>
+                            <li class="badge bg-primary">javascript</li>
                         </ul>
+                        <button type="button"  data-bs-toggle="modal" data-bs-target="#modalId" class="btn btn-lg btn-outline-primary">See Project</button>
                     </div>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="ps-0 mb-4">
-                        <li class="badge bg-primary">html</li> 
-                        <li class="badge bg-primary">css</li>
-                        <li class="badge bg-primary">javascript</li>
-                    </ul>
-                    <button class="btn btn-lg btn-outline-primary">See Project</button>
                 </div>
             </div>
-                
-            <div class="row bg-white rounded p-4 my-5 bg-light">
-                <div class="col-md-6">
-                    <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio2.png" alt="Snapshoot Portfolio">
-                </div>
-                <div class="col-md-6">
-                    <h2 class="h1 mb-4">Tonic</h2>
-                    <div class="d-flex">
-                        <h4 class="h6">CANOPY</h4>
-                        <ul class="d-flex">
-                            <li class="me-4 text-muted">Back End Dev</li>
-                            <li class="text-muted">2015</li>
-                        </ul>
+            
+            <div class="card rounded-3 my-5">
+                <div class="row card-body">
+                    <div class="col-md-6">
+                        <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio2.png" alt="Snapshoot Portfolio">
                     </div>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="ps-0 mb-4">
-                        <li class="badge bg-primary">html</li> 
-                        <li class="badge bg-primary">css</li>
-                        <li class="badge bg-primary">javascript</li>
-                    </ul>
-                    <button class="btn btn-lg btn-outline-primary">See Project</button>
+                    <div class="col-md-6">
+                        <h2 class="h1 mb-4">Tonic</h2>
+                        <div class="d-flex">
+                            <h4 class="h6">CANOPY</h4>
+                            <ul class="d-flex">
+                                <li class="me-4 text-muted">Back End Dev</li>
+                                <li class="text-muted">2015</li>
+                            </ul>
+                        </div>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <ul class="ps-0 mb-4">
+                            <li class="badge bg-primary">html</li> 
+                            <li class="badge bg-primary">css</li>
+                            <li class="badge bg-primary">javascript</li>
+                        </ul>
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#modalId" class="btn btn-lg btn-outline-primary">See Project</button>
+                    </div>
                 </div>
             </div>
-            <div class="row bg-white rounded p-4 my-5">
-                <div class="col-md-6">
-                    <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio1.png" alt="Snapshoot Portfolio">
-                </div>
-                <div class="col-md-6">
-                    <h2 class="h1 mb-4">Multi-Post Stories</h2>
-                    <div class="d-flex">
-                        <h4 class="h6">CANOPY</h4>
-                        <ul class="d-flex">
-                            <li class="me-4 text-muted">Back End Dev</li>
-                            <li class="text-muted">2015</li>
-                        </ul>
+            
+            <div class="card rounded-3 my-5">
+                <div class="row card-body flex-row-reverse">
+                    <div class="col-md-6">
+                        <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio1.png" alt="Snapshoot Portfolio">
                     </div>
-                    <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
-                    <ul class="ps-0 mb-4">
-                        <li class="badge bg-primary">html</li> 
-                        <li class="badge bg-primary">css</li>
-                        <li class="badge bg-primary">javascript</li>
+                    <div class="col-md-6">
+                        <h2 class="h1 mb-4">Multi-Post Stories</h2>
+                        <div class="d-flex">
+                            <h4 class="h6">CANOPY</h4>
+                            <ul class="d-flex">
+                                <li class="me-4 text-muted">Back End Dev</li>
+                                <li class="text-muted">2015</li>
+                            </ul>
+                        </div>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                        <ul class="ps-0 mb-4">
+                            <li class="badge bg-primary">html</li> 
+                            <li class="badge bg-primary">css</li>
+                            <li class="badge bg-primary">javascript</li>
+                        </ul>
+                        <button type="button"  data-bs-toggle="modal" data-bs-target="#modalId" class="btn btn-lg btn-outline-primary">See Project</button>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- About me  -->
+        <section class="bg-white mt-5 rounded-start p-5" id="about">
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h2 class="h1 mb-4">About <br> Myself</h2>
+                        <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                        <a href="#" class="h5 a text-primary">LET’S CONNECT</a>
+                        <ul class="ps-0 mt-4 list-unstyled d-flex">
+                            <li class="img-fluid me-3"><a href="#"><img src="assets/images/twitter.svg" alt="twitter"></a></li>
+                            <li class="img-fluid me-3"><a href="#"><img src="assets/images/linkedin.svg" alt="linkedin"></a></li>
+                            <li class="img-fluid me-3"><a href="#"><img src="assets/images/microverse.svg" alt="microverse"></a></li>
+                            <li class="img-fluid me-3"><a href="#"><img src="assets/images/github.svg" alt="github"></a></li>
+                            <li class="img-fluid me-3"><a href="#"><img src="assets/images/vector.svg" alt="vector"></a></li>
+                        </ul>
+                        <button class="btn btn-outline-primary btn-lg">Get my resume</button>
+                    </div>
+                    
+                    <ul class="col-md-6 ps-0 list-unstyled">
+                        <li class="w-100">
+                            <div data-bs-toggle="collapse" data-bs-target="#language" class="w-100 active p-3 d-flex justify-content-between">
+                                <h3 class="h4 text-dark-50">Language </h3>
+                                <div class="caret">
+                                    <img src="assets/images/caret-down.svg" alt="">
+                                </div>
+                            </div>
+                            
+                            <div id="language" class="pb-3 row px-4">
+                                <div class="col-md bg-light mb-2 p-3 rounded">
+                                    <img src="assets/images/js.png" class="img-fluid mb-3" alt="Javascript">
+                                    <h6 class="col">Javascript</h6>
+                                </div>
+                                <div class="col-md bg-light mb-2 p-3 mx-md-3 rounded-md">
+                                    <img src="assets/images/html.png" class="img-fluid mb-3" alt="Javascript">
+                                    <h6>HTML</h6>
+                                </div>
+                                <div class="col-md bg-light mb-2 p-3 rounded">
+                                    <img src="assets/images/css.png" class="img-fluid mb-3" alt="Javascript">
+                                    <h6>CSS</h6>
+                                </div>
+                            </div>
+                        </li>
+    
+                        <li class="w-100 border-bottom">
+                            <div class="w-100 active d-flex justify-content-between p-3">
+                                <h3 class="h4">Frameworks </h3>
+                                <div class="caret">
+                                    <img src="assets/images/caret-right.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="w-100 border-bottom">
+                            <div class="w-100 active p-3 d-flex justify-content-between ">
+                                <h3 class="h4">Skills</h3>
+                                <div class="caret">
+                                    <img src="assets/images/caret-right.svg" alt="">
+                                </div>
+                            </div>
+                        </li>
                     </ul>
-                    <button class="btn btn-lg btn-outline-primary">See Project</button>
                 </div>
             </div>
         </section>
     </main>
+
     <!-- footer section  -->
-    <footer class="rounded-top footer-background py-5" id="contact">
+    <footer id="contact" class="rounded-top footer-background py-5">
         <div class="w-25 mx-auto" style="min-width: 300px;">
           <article>
             <h2 id="contact-me" class="text-light fw-bold text-center">
@@ -223,6 +309,50 @@
         </div>
       </footer>
     
+    <!-- Modal Body -->
+    <div class="modal fade" id="modalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTitleId">Tonic</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex w-100 align-item-center">
+                        <h4 class="h6">CANOPY</h4>
+                        <ul class="d-flex">
+                            <li class="me-4 text-muted">Back End Dev</li>
+                            <li class="text-muted">2015</li>
+                        </ul>
+                    </div>
+                    <img class="img-fluid w-100" src="assets/images/Snapshoot Portfolio2.png" alt="Snapshoot Portfolio 3">
+                    <div class="row mt-3 mb-4">
+                        <div class="col-md-9">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p>
+                        </div>
+                        <div class="col-md-3">
+                            <ul class="ps-0 mb-4">
+                                <li class="badge bg-primary">html</li> 
+                                <li class="badge bg-primary">css</li>
+                                <li class="badge bg-primary">javascript</li>
+                                <li class="badge bg-primary">github</li> 
+                                <li class="badge bg-primary">ruby</li>
+                                <li class="badge bg-primary">bootstrap</li>
+                            </ul>
+                            <button class="btn btn-sm btn-outline-primary">See live <i class="text-primary fa fa-edit"></i></button>
+                            <button class="btn btn-sm btn-outline-primary">See Source <i class="text-primary fa fa-github"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- footer section  -->
+    <!-- Modal -->
+
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        const myModal = new bootstrap.Modal(document.getElementById('modalId'), options)
+    </script>
 </body>
 </html>
