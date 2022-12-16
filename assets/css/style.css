@@ -2,6 +2,12 @@
 
 /* navbar */
 /* hero */
+.desktop-background {
+  background-image: url("../images/desktop-bg.svg");
+  background-repeat: no-repeat;
+  height: 1434px;
+  width: 1272px;
+}
 /* projects */
 /* about me */
 /* contact me */
