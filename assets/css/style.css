@@ -5,12 +5,23 @@
 .desktop-background {
   background-image: url("../images/desktop-bg.svg");
   background-repeat: no-repeat;
-  height: 1434px;
-  width: 1272px;
+
+}
+
+.intro{
+    margin-top: 100%;
+    color: #091E42;
+    
 }
 /* projects */
 /* about me */
 /* contact me */
+.footer-background {
+    background-image: url("../images/desktop-contact-bg.svg");
+    background-repeat: no-repeat;
+    background-color: #6070FF;
+  
+  }
 
 /* Desktop Version */
 
