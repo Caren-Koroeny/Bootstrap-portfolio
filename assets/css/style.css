@@ -1,0 +1,36 @@
+/* Mobile Version */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+a{
+    text-decoration: none;
+}
+/* navbar */
+/* hero */
+.desktop-background {
+  background-image: url("../images/desktop-bg.svg");
+  background-repeat: no-repeat;
+}
+
+.intro{
+    color: #091E42;
+    padding-top: 13rem;
+    padding-bottom: 10rem;
+    
+}
+/* projects */
+/* about me */
+/* contact me */
+.footer-background {
+    background-image: url("../images/desktop-contact-bg.svg");
+    background-repeat: no-repeat;
+    background-color: #6070FF;
+  
+  }
+
+/* Desktop Version */
+
+/* navbar */
+/* hero */
+/* projects */
+/* about me */
+/* contact me */
