@@ -107,3 +107,40 @@ a {
 }
 
 /* ++++++++ My Recent works++++++ */
+.card{
+    border: 1px solid black;
+    background: #EBF0EE;
+    border: 1px solid #D0D9D4;
+    border-radius: 8px;
+    gap: 20px;
+}
+.text-center{
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+align-items: center;
+text-align: center;
+color: #172B4D;
+flex: none;
+order: 0;
+
+}
+.card-title{
+    color: #172B4D;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    
+}
+
+.recent-work .card-body{
+    height: 12em;
+    padding-top: 10rem;
+   
+   }
+
+
+.btn.btn-success{
+    background: #36B37F;
+   }
